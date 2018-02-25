@@ -4,6 +4,7 @@ style.type = 'text/css';
 head.appendChild(style);
 var tempsheet= style.sheet;
 tempsheet.insertRule(".header-ad,.in-read-ad,.hot-articles,.discover-stream,.octopus,.article-ad{ display: none!important; }", 0);
+tempsheet.insertRule("p,div { word-break:break-all; }", 0);
 
 window.onload = function () {
 	if(!(typeof pix === "undefined") && pix.isMobile){
