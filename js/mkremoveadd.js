@@ -6,6 +6,6 @@
 	tempsheet.insertRule(".header-ad,.in-read-ad,.hot-articles,.discover-stream,.octopus,.article-ad,.pixnet-ad{ display: none!important; }", 0);
 	window.onload = function(){
 		if(!typeof str === "undefined" && pix.isMobile){
-			tempsheet.insertRule(".pix-related-post,.pix-related-post-showed{ display: none!important; }", 0);
+			tempsheet.insertRule(".relative-article appeared{ display: none!important; }", 0);
 		}
 	};
