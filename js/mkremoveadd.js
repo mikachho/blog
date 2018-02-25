@@ -1,4 +1,5 @@
-	var head = document.getElementsByTagName("head")[0];
+console.log("222222222222"+pix.isMobile);	
+var head = document.getElementsByTagName("head")[0];
 	var style = document.createElement('style');
 	style.type = 'text/css';
 	head.appendChild(style);
@@ -14,3 +15,4 @@
 		if(pix.isMobile){
 console.log("222222222222"+pix.isMobile);
 		}
+console.log("222222222222"+pix.isMobile);
