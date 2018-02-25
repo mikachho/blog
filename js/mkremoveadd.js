@@ -6,8 +6,7 @@ var tempsheet= style.sheet;
 tempsheet.insertRule(".header-ad,.in-read-ad,.hot-articles,.discover-stream,.octopus,.article-ad,.pixnet-ad{ display: none!important; }", 0);
 
 window.onload = function () {
-	if(!typeof pix === "undefined" && pix.isMobile){
-		console.log("33333"+pix.isMobile);
+	if(!(typeof pix === "undefined") && pix.isMobile){
+		tempsheet.insertRule("pix-related-post{ display: none!important; }", 0);
 	}
-
 } 
