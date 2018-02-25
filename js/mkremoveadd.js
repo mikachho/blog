@@ -7,6 +7,6 @@ tempsheet.insertRule(".header-ad,.in-read-ad,.hot-articles,.discover-stream,.oct
 
 window.onload = function () {
 	if(!(typeof pix === "undefined") && pix.isMobile){
-		tempsheet.insertRule("pix-related-post{ display: none!important; }", 0);
+		tempsheet.insertRule(".pix-related-post{ display: none!important; }", 0);
 	}
 } 
