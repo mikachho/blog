@@ -12,6 +12,7 @@ try{
 			tempsheet.insertRule(".pix-related-post,.relative-article{ display: none!important; }", 0);
 		}
 		var mkxx = document.getElementsByClassName("pixnet-ad");
+console.log('mkxx.length:' + mkxx.length);
 		for (var i=0, j = mkxx.length;i<j;i++){
 		  mkxx[i].style.display = 'none';
 		}
