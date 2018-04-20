@@ -9,12 +9,14 @@ tempsheet.insertRule("p,div { word-break:break-all; }", 0);
 try{
 	(function() {
 		if('none' !==document.getElementsByTagName("body")[0].getAttribute("data-mobile-mode")){
-			tempsheet.insertRule(".pix-related-post,.relative-article{ display: none!important; }", 0);
+			tempsheet.insertRule(".pix-related-post,.relative-article,#hotels-searchbox{ display: none!important; }", 0);
+			
 		}
+		/*
 		var mkxx = document.getElementsByClassName("pixnet-ad");
-console.log('mkxx.length:' + mkxx.length);
 		for (var i=0, j = mkxx.length;i<j;i++){
 		  mkxx[i].style.display = 'none';
-		}
+		}*/
+		
 	})();
 }catch(e){console.log(e)}
