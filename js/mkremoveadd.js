@@ -8,8 +8,7 @@ tempsheet.insertRule("p,div { word-break:break-all; }", 0);
 
 try{
 	(function() {
-		console.log("pix.isMobile:" + pix.isMobile);
-		console.log("isMobile:" + isMobile);
+		console.log("pix.isMobile:" + jQuery(document.body).data('mobileMode'));
 		if(!(typeof pix === "undefined") && pix.isMobile){
 			tempsheet.insertRule(".pix-related-post,.relative-article{ display: none!important; }", 0);
 		}
