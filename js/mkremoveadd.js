@@ -29,4 +29,4 @@ try{
 		  mkxx[i].style.display = 'none';
 		}
 	});
-}catch(e){}
+}catch(e){console.log(e)}
