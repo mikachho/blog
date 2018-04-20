@@ -3,9 +3,8 @@ var style = document.createElement('style');
 style.type = 'text/css';
 head.appendChild(style);
 var tempsheet= style.sheet;
-tempsheet.insertRule(".header-ad,.in-read-ad,.hot-articles,.discover-stream,.octopus,.article-ad{ display: none!important; }", 0);
+tempsheet.insertRule(".header-ad,.in-read-ad,.hot-articles,.discover-stream,.octopus,.article-ad,.pixnet-ad>div>iframe{ display: none!important; }", 0);
 tempsheet.insertRule("p,div { word-break:break-all; }", 0);
-tempsheet.insertRule(".pixnet-ad>div {height:0px!important; }", 0);
 
 try{
 	(function() {
