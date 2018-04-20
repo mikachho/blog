@@ -20,7 +20,7 @@ window.onload = function () {
 
 } */
 try{
-	$(document).ready(function(){
+	(function($) {
 		if(!(typeof pix === "undefined") && pix.isMobile){
 			tempsheet.insertRule(".pix-related-post,.relative-article{ display: none!important; }", 0);
 		}
@@ -28,5 +28,5 @@ try{
 		for (var i=0, j = mkxx.length;i<j;i++){
 		  mkxx[i].style.display = 'none';
 		}
-	});
+	})(jQuery)
 }catch(e){console.log(e)}
