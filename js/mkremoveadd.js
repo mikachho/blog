@@ -8,7 +8,7 @@ tempsheet.insertRule("p,div { word-break:break-all; }", 0);
 
 window.onload = function () {
 	if(!(typeof pix === "undefined") && pix.isMobile){
-		tempsheet.insertRule(".pix-related-post{ display: none!important; }", 0);
+		tempsheet.insertRule(".pix-related-post,.pix-related-post-showed{ display: none!important; }", 0);
 	}
 	var mkxx = document.getElementsByClassName("pixnet-ad");
 	for (var i=0, j = mkxx.length;i<j;i++){
