@@ -19,4 +19,7 @@ try{
 		}*/
 		
 	})();
+	
+	$("div [id^='div-gpt-ad']:nth-child(n+10)").css('display','none');
+
 }catch(e){console.log(e)}
