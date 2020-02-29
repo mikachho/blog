@@ -8,10 +8,6 @@ tempsheet.insertRule("p,div { word-break:break-all; }", 0);
 tempsheet.insertRule("#main .header-fixed-area {min-height: unset;}", 0);
 tempsheet.insertRule("div[id^='div-gpt-ad']:nth-child(n+12) { display: none!important; }", 0);
 
-li[data-index^='t'] {
-    color: red;    
-}
-
 try{
 	(function() {
 		if('none' !==document.getElementsByTagName("body")[0].getAttribute("data-mobile-mode")){
