@@ -12,6 +12,11 @@ try{
 		if('none' !==document.getElementsByTagName("body")[0].getAttribute("data-mobile-mode")){
 			tempsheet.insertRule(".pix-related-post,.relative-article{ display: none!important; }", 0);
 		}
+		
+		var artWet = document.getElementsByClassName('article-body')[0].lastElementChild;
+		if(artWet){
+		    artWet.style.display = 'none';
+		}
 		/*
 		var mkxx = document.getElementsByClassName("pixnet-ad");
 		for (var i=0, j = mkxx.length;i<j;i++){
