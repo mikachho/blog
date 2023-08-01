@@ -11,6 +11,7 @@ tempsheet.insertRule("#main .header-fixed-area {min-height: unset;}", 0);
 try{
 	(function() {
 		tempsheet.insertRule(".pixnet-ad { display: none!important; }", 0);
+		tempsheet.insertRule("#aniBox { display: none!important; }", 0);
 		if('none' !==document.getElementsByTagName("body")[0].getAttribute("data-mobile-mode")){
 			tempsheet.insertRule(".pix-related-post,.relative-article{ display: none!important; }", 0);
 		}
